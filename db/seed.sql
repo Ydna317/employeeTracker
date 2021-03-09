@@ -1,33 +1,30 @@
 use employees;
-
 INSERT INTO department
     (name)
 VALUES
-    ('Sales'),
-    ('Engineering'),
-    ('Finance'),
-    ('Legal');
-
+    ('Hotel Recreation'),
+    ('Guest Talent Programs'),
+    ('Media Events'),
+    ('Club 33');
 INSERT INTO role
     (title, salary, department_id)
 VALUES
-    ('Sales Lead', 100000, 1),
-    ('Salesperson', 80000, 1),
-    ('Lead Engineer', 150000, 2),
-    ('Software Engineer', 120000, 2),
-    ('Account Manager', 160000, 3),
-    ('Accountant', 125000, 3),
-    ('Legal Team Lead', 250000, 4),
-    ('Lawyer', 190000, 4);
-
+    ('Lifeguard', 30000, 1),
+    ('Resort Lead', 40000, 1),
+    ('Facilitator', 35000, 2),
+    ('Production Coordinator', 45000, 2),
+    ('Associate', 40000, 3),
+    ('Media Lead', 50000, 3),
+    ('C33 Coordinator', 55000, 4),
+    ('1901 Lead', 65000, 4);
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
-    ('John', 'Doe', 1, NULL),
-    ('Mike', 'Chan', 2, 1),
-    ('Ashley', 'Rodriguez', 3, NULL),
-    ('Kevin', 'Tupik', 4, 3),
-    ('Kunal', 'Singh', 5, NULL),
-    ('Malia', 'Brown', 6, 5),
-    ('Sarah', 'Lourd', 7, NULL),
-    ('Tom', 'Allen', 8, 7);
+    ('Allison', 'Werbicki', 1, NULL),
+    ('Jay', 'Poupongtong', 2, 1),
+    ('Danny', 'Johnson', 3, NULL),
+    ('Bert', 'Fulton', 4, 3),
+    ('Sean', 'Nash', 5, NULL),
+    ('Lucia', 'Franco', 6, 5),
+    ('Andy', 'Nguyen', 7, NULL),
+    ('Kate', 'Newton', 8, 7);
